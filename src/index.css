@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+
+.banner{
+  background:linear-gradient(to bottom, black, grey, white);
+  background: url(https://img.freepik.com/premium-photo/vintage-technology-workshop-with-retro-equipment_1287196-13122.jpg?w=1800);
+  background-size: cover;
+  background-position: center center;
+  text-shadow: 0 0 20px black;
+}
+.features-cards-ul > div{
+  box-shadow: 0 0 1px lightgray;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    box-shadow: 0 0 8px lightgray;
+  }
+}
+.games-section{
+  background-image: url(./media/home-banner.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0 100px skyblue;
+}
+.testimonials-ul{
+  max-width: 900px;
+  margin: auto;
+  &::-webkit-scrollbar {
+    width: 3px; /* you can adjust width as needed */
+    height: 5px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: lightblue; /* sets the thumb color */
+    border-radius: 6px;
+  }
+}

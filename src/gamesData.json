@@ -1,0 +1,68 @@
+[  {
+  "id": "1",
+  "category": "Game",
+  "proj_name": "Zombieskill",
+  "short_desc": "A Survival Zombie kill game of survival points with 2 types of zombies",
+  "long_desc": "Are you brave enough to face the undead? Jump into a zombie apocalypse where survival is everything. Dodge, aim, and rack up points as two types of zombies chase you down. Every second counts in this electric survival thriller!",
+  "languages_used": ["HTML", "CSS", "JS"],
+  "image_url": "zombieskill.png",
+  "proj_link": "http://zombieskill.netlify.app/",
+  "responsive": "yes"
+},
+{
+  "id": "2",
+  "category": "Game",
+  "proj_name": "Emoji",
+  "short_desc": "An interactive game where players guess the meaning of emojis. Built with React for seamless gameplay.",
+  "long_desc": "Think you're fluent in emoji? Test your skills in this fun-filled emoji guessing game. Powered by React, it's smooth, quick, and more expressive than words! Perfect for all ages.",
+  "languages_used": ["HTML", "CSS", "JS", "REACT JS"],
+  "image_url": "emoji.png",
+  "proj_link": "https://pravidasremojig.ccbp.tech",
+  "responsive": "yes"
+},
+{
+  "id": "3",
+  "category": "Static",
+  "proj_name": "Meme Generator",
+  "short_desc": "An interactive tool to create custom memes by adding text to images. Allows downloading or sharing memes directly.",
+  "long_desc": "Power up your creativity! Upload, type, and generate hilarious memes with ease. Share your custom memes in seconds – because even gas & electric stores deserve a good laugh.",
+  "languages_used": ["HTML", "CSS", "JS"],
+  "image_url": "meme generator.png",
+  "proj_link": "https://memegen-das.netlify.app/",
+  "responsive": "yes"
+},
+{
+  "id": "4",
+  "category": "Game",
+  "proj_name": "Match",
+  "short_desc": "A card matching game designed to improve memory skills. Fully responsive with a fun interface.",
+  "long_desc": "Flip, remember, and win! This card-matching game is designed to energize your brain and improve your memory skills. Colorful, responsive, and super addictive!",
+
+"languages_used": ["HTML", "CSS", "JS", "REACT JS"],
+  "image_url": "match.png",
+  "proj_link": "https://pravidasrmatchg.ccbp.tech",
+  "responsive": "yes"
+},
+{
+  "id": "5",
+  "category": "Game",
+  "proj_name": "Coin Toss",
+  "short_desc": "A game that simulates tossing a coin. Tracks the number of heads and tails for an engaging experience.",
+  "long_desc": "Heads or Tails? Predict and win! A simple yet addictive coin-toss simulator that keeps track of your lucky streaks. Realistic flip animations and responsive design make it a quick thrill anytime.",
+  "languages_used": ["HTML", "CSS", "JS", "REACT JS"],
+  "image_url": "coin toss.png",
+  "proj_link": "https://pravidasrtoss.ccbp.tech",
+  "responsive": "yes"
+},
+{
+  "id": "6",
+  "category": "Game",
+  "proj_name": "Rock Paper Scissor",
+  "short_desc": "An interactive game to play rock-paper-scissors against a computer. Built with React for a smooth user experience.",
+  "long_desc": "Play against the computer in this retro favorite! Fast-paced and smartly built with React, challenge your reflexes and strategy in this timeless showdown.",
+  "languages_used": ["HTML", "CSS", "JS", "REACT JS"],
+  "image_url": "rock paper scissor.png",
+  "proj_link": "https://pravidasrrps.ccbp.tech",
+  "responsive": "yes"
+}
+]
