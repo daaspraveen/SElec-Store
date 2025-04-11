@@ -74,7 +74,7 @@ const GamesPage = () => {
             return (
             <div key={game.id} className="bg-white shadow-lg rounded-lg p-4 max-sm:w-80 max-md:w-90 m-auto">
               <img
-                src={`./media/games/${game.image_url}`}
+                src={`/media/games/${game.image_url}`}
                 alt={game.proj_name}
                 className="h-45 w-full object-cover rounded"
               />

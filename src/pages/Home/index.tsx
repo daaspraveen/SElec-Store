@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import { Phone, Clock, Award, Zap, Wind, ShieldCheck, Fan, Coffee, Flame, CookingPot } from 'lucide-react';
+import { Phone, Clock, Award, Zap, Wind, ShieldCheck, Fan, Coffee, Flame, CookingPot , MessagesSquare} from 'lucide-react';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer'
@@ -265,18 +265,22 @@ const Home = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
-              <div className="flex items-center justify-center space-x-4 mb-6 hover:scale-105 transition-transform duration-300">
+              {/* <div className="flex items-center justify-center space-x-4 mb-6 hover:scale-105 transition-transform duration-300">
                 <Phone className="h-6 w-6 text-blue-600" />
-                <span className="text-lg">1-800-SONY-HEG</span>
+                <span className="text-lg">1-800 Shivaji Electricals </span>
+              </div> */}
+              <div className="flex items-center justify-center space-x-4 mb-6 hover:scale-105 transition-transform duration-300">
+                <MessagesSquare className="h-6 w-6 text-blue-600" />
+                <span className="text-lg">Via Google Maps Account</span>
               </div>
               <div className="flex items-center justify-center space-x-4 hover:scale-105 transition-transform duration-300">
                 <Zap className="h-6 w-6 text-blue-600" />
                 <span className="text-lg">Same Day Service Available</span>
               </div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.616110724456!2d78.4362321!3d17.3821959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97cf78e03bcf%3A0x2071bea8961bf74b!2sShivaji%20Electrical%20Store!5e0!3m2!1sen!2sin!4v1744376003033!5m2!1sen!2sin"
-                width="600"
+                width="400"
                 height="450"
-                className="map border-none m-auto"
+                className="map border-none m-auto mt-5 max-sm:w-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
