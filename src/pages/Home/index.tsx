@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import { Phone, Clock, Award, Zap, Wind, ShieldCheck, Fan, Coffee, Flame, CookingPot , MessagesSquare} from 'lucide-react';
+import { Clock, Award, Zap, Wind, ShieldCheck, Fan, Coffee, Flame, CookingPot , MessagesSquare} from 'lucide-react';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer'

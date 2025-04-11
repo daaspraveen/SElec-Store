@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Store, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo and Store Name */}
           <div className="flex items-center space-x-2">
-            <Store className="h-8 w-8 text-blue-600 animate-pulse" />
+            <img src="/SE-store-logo-bg.png" alt="website logo" className="w-8 aspect-square" />
             <h1 className="text-xl font-bold text-gray-900">
               Shivaji Electrical Store
             </h1>
