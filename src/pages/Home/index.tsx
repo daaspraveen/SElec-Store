@@ -273,8 +273,7 @@ const Home = () => {
                 <Zap className="h-6 w-6 text-blue-600" />
                 <span className="text-lg">Same Day Service Available</span>
               </div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15230.464464860823!2d78.42593233509184!3d17.3821956360622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97cf78e03bcf%3A0x2071bea8961bf74b!2sSONY%20Electronics%20and%20Gas%20Services!5e0!3m2!1sen!2sin!4v1744371571258!5m2!1sen!2sin"
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.616110724456!2d78.4362321!3d17.3821959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97cf78e03bcf%3A0x2071bea8961bf74b!2sShivaji%20Electrical%20Store!5e0!3m2!1sen!2sin!4v1744376003033!5m2!1sen!2sin"
                 width="600"
                 height="450"
                 className="map border-none m-auto"
