@@ -147,6 +147,24 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
+        {/* Games Section */}
+        <section className="bg-blue-50 py-12 px-4 text-center games-section">
+          <h2 className="text-3xl font-bold mb-4 text-gray-50">
+            Play Fun Games
+          </h2>
+          <p className="text-gray-50 mb-6">
+            Explore our collection of interactive and entertaining games.
+            Sharpen your memory, have fun, and challenge yourself!
+          </p>
+          <button
+            type="button"
+            onClick={() => navigateTo("/games")}
+            className="bg-gray-900 text-gray-100 px-6 py-3 rounded-lg hover:bg-gray-950 hover:scale-105 transition"
+          >
+            Browse Games
+          </button>
+        </section>
 
         {/* Features */}
         <div className="py-16 bg-white">
@@ -224,24 +242,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* Games Section */}
-        <section className="bg-blue-50 py-12 px-4 text-center games-section">
-          <h2 className="text-3xl font-bold mb-4 text-gray-50">
-            Play Fun Games
-          </h2>
-          <p className="text-gray-50 mb-6">
-            Explore our collection of interactive and entertaining games.
-            Sharpen your memory, have fun, and challenge yourself!
-          </p>
-          <button
-            type="button"
-            onClick={() => navigateTo("/games")}
-            className="bg-gray-900 text-gray-100 px-6 py-3 rounded-lg hover:bg-gray-950 hover:scale-105 transition"
-          >
-            Browse Games
-          </button>
-        </section>
 
         {/* Services Section */}
         <div id="services" className="py-16 bg-white">
